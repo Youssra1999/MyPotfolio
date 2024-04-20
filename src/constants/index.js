@@ -3,9 +3,9 @@ import {
     backend,
     creator,
     web,
+    python,
     javascript,
     typescript,
-    html,
     css,
     reactjs,
     redux,
@@ -42,54 +42,54 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Data Scientist",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Data Analyst",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Web Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "UX Designer",
       icon: creator,
     },
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "CSS 3",
+      name: "TensorFlow",
       icon: css,
     },
     {
-      name: "JavaScript",
+      name: "Pytorch",
       icon: javascript,
     },
     {
-      name: "TypeScript",
+      name: "Jupyter",
       icon: typescript,
     },
     {
-      name: "React JS",
+      name: "SQL",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
+      name: "Microsoft Power BI",
       icon: redux,
     },
     {
-      name: "Tailwind CSS",
+      name: "Spark",
       icon: tailwind,
     },
     {
-      name: "Node JS",
+      name: "Cloud Azure",
       icon: nodejs,
     },
     {
