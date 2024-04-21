@@ -1,15 +1,19 @@
 import {
     mobile,
+    r,
+    aws,
+    pandas,
+    numpy,
+    sickitlearn,
+    powerbi,
+    jupyter,
+    pytorch,
+    python,
     backend,
+    tensorflow,
     creator,
     web,
-    python,
-    javascript,
-    typescript,
-    css,
-    reactjs,
-    redux,
-    tailwind,
+    sql,
     nodejs,
     mongodb,
     git,
@@ -50,11 +54,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Web Developer",
+      title: "ML scientist",
       icon: backend,
     },
     {
-      title: "UX Designer",
+      title: "AI Engineer",
       icon: creator,
     },
   ];
@@ -66,68 +70,71 @@ import {
     },
     {
       name: "TensorFlow",
-      icon: css,
+      icon: tensorflow,
     },
     {
       name: "Pytorch",
-      icon: javascript,
+      icon: pytorch,
     },
     {
       name: "Jupyter",
-      icon: typescript,
+      icon: jupyter,
     },
     {
       name: "SQL",
-      icon: reactjs,
+      icon: sql,
     },
     {
       name: "Microsoft Power BI",
-      icon: redux,
+      icon: powerbi,
     },
     {
-      name: "Spark",
-      icon: tailwind,
+      name: "R",
+      icon: r,
     },
     {
-      name: "Cloud Azure",
-      icon: nodejs,
+      name: "sickitlearn",
+      icon: sickitlearn,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Numpy",
+      icon: numpy,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Pandas",
+      icon: pandas,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "aws",
+      icon: aws,
     },
     {
       name: "docker",
       icon: docker,
-    },
+    }
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Preparatory Classes",
+      company_name: "ENSA",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "September 2018 - June 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Relevant courses:",
+        " Mathematics (Algebra, Analysis, Calculus, Differential Equations)",
+        " Theoretical Physics (Electricity, Mechanics, Electromagnetics)",
+        " Experimental Physics",
+       
       ],
     },
+  
+  
     {
       title: "React Native Developer",
       company_name: "Tesla",
@@ -154,22 +161,10 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
   ];
   
-  const testimonials = [
+  /***const testimonials = [
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
@@ -195,23 +190,23 @@ import {
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
-  
+  ***/
   const projects = [
     {
-      name: "Car Rent",
+      name: "Automatic Review Analyzer",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The goal of this project is to design a classifier to use for sentiment analysis of product reviews. Our training set consists of reviews written by Amazon customers for various food products. The reviews, originally given on a 5 point scale, have been adjusted to a +1 or -1 scale, representing a positive or negative review, respectively.",
       tags: [
         {
-          name: "react",
+          name: "NLP",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Python",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "ML",
           color: "pink-text-gradient",
         },
       ],
@@ -262,4 +257,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences,  projects };
